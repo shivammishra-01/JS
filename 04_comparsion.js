@@ -13,9 +13,9 @@
 // console.log(null == 0);
 
 
-// console.log(undefine == 0);
-// console.log(undefine <= 0);
-// console.log(undefine >= 0);
+console.log(undefined == 0);
+console.log(undefined <= 0);
+console.log(undefined >= 0);
 
 
 
