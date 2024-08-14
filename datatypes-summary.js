@@ -35,3 +35,32 @@ const myFunction = function() {
 console.log(typeof myFunction);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack(primitive )  and heap(non-primitive)
+
+// stack
+let myNameIs="shivamkumar"
+let yourNameIs=myNameIs
+yourNameIs="mishra"
+
+console.log(myNameIs);
+console.log(yourNameIs);
+
+
+
+// Heap
+let userOne={
+    name:"shivam",
+    email:"shivammishra"
+}
+
+let userTwo=userOne
+
+userTwo.email="supershivam"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
